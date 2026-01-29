@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
